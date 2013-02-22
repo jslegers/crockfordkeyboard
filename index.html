@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="styles.min.css" />
+    </head>
+    <body>
+        <h2>Crockford keyboard</h2>
+        <p>
+            The Crockford keyboard is a keyboard design Douglas Crockford made in 1981. Strangely, I never found a Javascript implementation for this keyboard, even though Crockford is among the most famous Javascript gurus around. Thus, I decided to implement a simple proof-of-concept myself.
+        </p>
+        <form>
+            <div class="cfkb v1">
+                <div class="titlebar"><div class="title"><h2>Crockford Keyboard</h2></div><div class="info"><input id="cfkb-info" value="?" type="button" /></div></div>
+                <div class="textbox"><textarea id="cfkb-textbox"></textarea></div>
+                <div class="buttons">
+                    <div class="special">
+                        <input id="cfkb-tab" class="wide" value="&#8677;" type="button" />
+                        <input id="cfkb-back" class="wide" value="&larr;" type="button" />
+                        <input id="cfkb-cap" class="wide" value="cap" type="button" />
+                        <input id="cfkb-lock" class="wide" value="lock" type="button" />
+                        <input id="cfkb-alpha" class="wide" value="alpha" type="button" />
+                        <input id="cfkb-euro" class="wide" value="euro" type="button" />
+                        <input id="cfkb-symb" class="wide" value="&#36; + ?" type="button" />
+                        <input id="cfkb-add" class="wide" value="&euro; &#167; &#191;" type="button" />
+                        <input id="cfkb-done" class="done" value="Done" type="button" />
+                    </div>
+                    <div class="numeric">
+                        <input id="cfkb-7" value="7" type="button" />
+                        <input id="cfkb-8" value="8" type="button" />
+                        <input id="cfkb-9" value="9" type="button" />
+                        <input id="cfkb-4" value="4" type="button" />
+                        <input id="cfkb-5" value="5" type="button" />
+                        <input id="cfkb-6" value="6" type="button" />
+                        <input id="cfkb-1" value="1" type="button" />
+                        <input id="cfkb-2" value="2" type="button" />
+                        <input id="cfkb-3" value="3" type="button" />
+                        <input id="cfkb-comma" value="," type="button" />
+                        <input id="cfkb-0" value="0" type="button" />
+                        <input id="cfkb-dot" value="." type="button" />
+                        <input id="cfkb-space" class="wide" value="&nbsp;" type="button" />
+                        <input id="cfkb-return" class="wide" value="&crarr;" type="button" />
+                    </div>
+                    <div class="alpha">
+                        <input id="cfkb-a" value="a" type="button" />
+                        <input id="cfkb-b" value="b" type="button" />
+                        <input id="cfkb-c" value="c" type="button" />
+                        <input id="cfkb-d" value="d" type="button" />
+                        <input id="cfkb-blank-1" value="&nbsp;" type="button" />
+                        <input id="cfkb-blank-2" value="&nbsp;" type="button" />
+                        <input id="cfkb-e" value="e" type="button" />
+                        <input id="cfkb-f" value="f" type="button" />
+                        <input id="cfkb-g" value="g" type="button" />
+                        <input id="cfkb-h" value="h" type="button" />
+                        <input id="cfkb-blank-3" value="&nbsp;" type="button" />
+                        <input id="cfkb-blank-4" value="&nbsp;" type="button" />
+                        <input id="cfkb-i" value="i" type="button" />
+                        <input id="cfkb-j" value="j" type="button" />
+                        <input id="cfkb-k" value="k" type="button" />
+                        <input id="cfkb-l" value="l" type="button" />
+                        <input id="cfkb-m" value="m" type="button" />
+                        <input id="cfkb-n" value="n" type="button" />
+                        <input id="cfkb-o" value="o" type="button" />
+                        <input id="cfkb-p" value="p" type="button" />
+                        <input id="cfkb-q" value="q" type="button" />
+                        <input id="cfkb-r" value="r" type="button" />
+                        <input id="cfkb-s" value="s" type="button" />
+                        <input id="cfkb-t" value="t" type="button" />
+                        <input id="cfkb-u" value="u" type="button" />
+                        <input id="cfkb-v" value="v" type="button" />
+                        <input id="cfkb-w" value="w" type="button" />
+                        <input id="cfkb-x" value="x" type="button" />
+                        <input id="cfkb-y" value="y" type="button" />
+                        <input id="cfkb-z" value="z" type="button" />
+                    </div>
+                </div>
+            </div>
+        </form>
+
+        <script>
+        </script>
+        <script src="code.min.js"></script>
+    </body>
+</html>
