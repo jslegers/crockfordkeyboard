@@ -7,6 +7,12 @@ The Crockford keyboard is a keyboard design Douglas Crockford made in 1981. Stra
 
 This implementation is MIT licensed.
 
+##Demo
+
+For a live demo, go to [http://jslegers.github.com/crockfordkeyboard/](http://jslegers.github.com/crockfordkeyboard/).
+
+This implementation is MIT licensed.
+
 
  Copyright (c) 2011 John Slegers
 
