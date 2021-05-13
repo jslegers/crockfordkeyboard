@@ -8,7 +8,7 @@ This implementation is MIT licensed.
 
 ## Demo
 
-For a live demo, go to [https://jslegers.github.io/crockfordkeyboard/](https://jslegers.github.io/crockfordkeyboard/).
+For a live demo, go to [http://jslegers.github.io/crockfordkeyboard/](http://jslegers.github.io/crockfordkeyboard/).
 
 This implementation is MIT licensed.
 
