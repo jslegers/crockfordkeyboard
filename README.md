@@ -1,16 +1,14 @@
-[![endorse](https://api.coderwall.com/johnslegers/endorsecount.png)](https://coderwall.com/johnslegers)
+# Crockford Keyboard
 
-#Crockford Keyboard
-
-##Summary
+## Summary
 
 The Crockford keyboard is a keyboard design Douglas Crockford made in 1981. Strangely, I never found a Javascript implementation for this keyboard, even though Crockford is among the most famous Javascript gurus around. Thus, I decided to implement a simple proof-of-concept myself.
 
 This implementation is MIT licensed.
 
-##Demo
+## Demo
 
-For a live demo, go to [http://jslegers.github.com/crockfordkeyboard/](http://jslegers.github.com/crockfordkeyboard/).
+For a live demo, go to [https://jslegers.github.io/crockfordkeyboard/](https://jslegers.github.io/crockfordkeyboard/).
 
 This implementation is MIT licensed.
 
